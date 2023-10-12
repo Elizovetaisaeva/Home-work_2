@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
         public static void task1() {
@@ -19,5 +20,13 @@ public class Main {
         System.out.println(dog +4 );
         System.out.println(cat + 4);
         System.out.println(paper +4 );
+    }
+    public static void task3() {
+        var dog = 0.8;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog - 3.5);
+        System.out.println(cat - 1.6);
+        System.out.println(paper - 7639);
     }
 }
