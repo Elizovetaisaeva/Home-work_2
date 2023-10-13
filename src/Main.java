@@ -6,6 +6,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+        task8();
 
     }
 
@@ -52,10 +54,29 @@ public class Main {
         System.out.println("frog"+frog);
     }
     public static void task6() {
-        var firstBoxer=78.2;
-        var secondBoxer=82.7;
-        var capacityLeft=firstBoxer+secondBoxer;
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var capacityLeft = firstBoxer + secondBoxer;
         System.out.println("Общуя масса двух бойцов" + capacityLeft + "кг бойцов");
+    }
+        public static void task7() {
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var capacityLeft = firstBoxer - secondBoxer;
+        System.out.println("Разница между массами бойцов" + capacityLeft + "кг бойцов");
+
+        var Weight = capacityLeft - firstBoxer - secondBoxer;
+            System.out.println("Масса тела"+ Weight+ "кг!");
+            Weight = Weight/2;
+            System.out.println("Теперь масса тела" + Weight);
+            Weight = capacityLeft - firstBoxer - secondBoxer;
+            System.out.println("Теперь масса тела" +Weight+ "кг!");
+            var load = (firstBoxer - secondBoxer) % capacityLeft;
+            System.out.println(" разница масс спортсменов" + load + "кг!");
+
+    }
+    public static void task8() {
+
 
     }
 }
