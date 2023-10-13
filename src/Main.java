@@ -52,6 +52,10 @@ public class Main {
         System.out.println("frog"+frog);
     }
     public static void task6() {
+        var firstBoxer=78.2;
+        var secondBoxer=82.7;
+        var capacityLeft=firstBoxer+secondBoxer;
+        System.out.println("Общуя масса двух бойцов" + capacityLeft + "кг бойцов");
 
     }
 }
